@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("homeWallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.logo-icon {
+    float: left;
+    width: 400px;
+    height: 35px;
+}
+
+.logo-header {
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin-right: 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-decoration: solid;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: white;
+    border-width: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.box {
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    height: 580px;
+    padding: 20px;
+    margin: 10px auto;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.content {
+    display: block;
+    margin-right: 70px;
+}
+
+h2 {
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+    color: gray;
+}
+
+h3 {
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    margin-top: 30px;
+    color: gray;
+}
+
+p {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+hr {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    margin-left: 110px;
+    background-color: white;
+    left: 50%;
+    font-size: 10px;
+    transform: translate(-50%);
+}
+
+p a {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+p a:hover {
+    background-color: dodgerblue;
+    border-radius: 2px;
+    color: white;
+}
+
+ul {
+    display: block;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    color: white;
+    list-style-type: circle;
+}
+
+ol {
+    display: block;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+ol li {
+    color: white;
+    list-style-type: square;
+}
